@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Gasalt-Black;
+    src: url(fonts/Gasalt-Black.ttf);
+    font-family: Gasalt-Thin;
+    src: url(fonts/Gasalt-Thin.ttf);
+    font-family: Gasalt-Regular;
+    src: url(fonts/Gasalt-Regular.ttf);
+  }
+  
+  body{
+      background-color: rgb(107, 106, 107);
+      font-family: Gasalt-Thin;
+  }
+  .container {
+    padding: 100px;
+    margin-inline: 200px ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);  
+  }
+  .pfp{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-inline: 320px ;
+    
+  }
+  .logo{
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 30px; 
+    padding-inline-start: 0px;
+  }
+  .Name{
+    display: center;
+    position: relative;
+    padding-inline-start: 25%;
+    padding-inline-end: 5%;
+    font-family: Gasalt-Black;
+  }
+  .linktext{
+    margin-inline: 100px ;
+    text-align: center;
+    font-family: Gasalt-Thin;
+  }
+  .Link{
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 80px;
+    position: absolute;
+    margin-left: 25%;
+    height: 25px;
+   
+  }
+  .linktext{
+    width: 30px;
+    height: 30px;
+    margin-left: 20%;
+    transform: translateY(-45%);
+    margin-top: 5px;
+    text-align:left;
+    margin-left: 10px;
+  }
+ 
+  .socmed:hover {
+    background-color: #4267B2;
+    color: #ffffff;
+    border: 0px solid #4267B2;
+  }
+  
+  .socmed:hover {
+    color: #ffffff;
+  }
